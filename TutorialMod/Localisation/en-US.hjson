@@ -1,0 +1,58 @@
+﻿Mods:{
+	TutorialMod:{
+		ItemName:{
+			TutorialBar:"Tutorialite Bar"
+			TutorialOre:"Tutorialite Ore"
+
+			TutorialRareBar:"Super Tutorialite Bar"
+			TutorialRareOre:"Super Tutorialite Ore"
+
+			TutorialAxe:"Tutorialite Axe"
+			TutorialHammer:"Tutorialite Hammer"
+			TutorialPickaxe:"Tutorialite Pickaxe"
+
+			TutorialShortsword:"Tutorialite Shortsword"
+			TutorialSword:"Tutorialite Broadsword"
+
+			TutorialItem:"Generic Item"
+
+			TutorialWand:"Tutorialite Wand"
+		}
+
+		ItemTooltip:{
+			TutorialAxe:"A Modded Axe"
+			TutorialHammer:"A Modded Hammer"
+			TutorialPickaxe:"A Modded Pickaxe"
+
+			TutorialStatAccessory:"Increases Weapon Damage by 50%\nIncreases Melee Crit Chance by 20%\nIncreases Melee Knockback by 25%\nIncreases Ranged Attack Speed by 50%\nIncreases Magic Armour Penetration by 5 points."
+			TutorialShoeAccessory:"Increases Move Speed by 50%"
+			TutorialWingAccessory:""
+		}
+
+		ItemSetBonus:{
+			TutorialSet:"Increase Speed"
+		}
+
+		MapObject:{
+			TutorialOre:"Tutorialite"
+			TutorialRareOre:"Super Tutorialite"
+		}
+
+		ProjectileName:{
+			TutorialWandProjectile:"Tutorialite Curse"
+		}
+		TownNPCMood: {
+			Tankist: {
+				Content: Perimeter clear.
+				NoHome: Our base of operaton is lost, we might need to further fall back if the situaton deteriorates.
+				LoveSpace: Fellas keep up the good work!
+				FarFromHome: We have lost contact with the base, request regrouping.
+				DislikeCrowded: There are too many people around, it's a security risk.
+				LikeBiome: "The forest puts us in a curious position."
+				DislikeBiome: "Everything reminds me of Rasputitsa."
+			}
+		}
+	
+	}
+
+}
