@@ -26,7 +26,7 @@ namespace TutorialMod.Content.NPCs
 		}
 
 		private int timer;
-
+		Player player = Main.player[Main.myPlayer];
 		public override void AI(){
 			for (int i = 0; i < 200; i++){
 				NPC target = Main.npc[i];
@@ -37,12 +37,12 @@ namespace TutorialMod.Content.NPCs
 
 					if (NPC.Distance(target.Center) < 600f){
 						this.timer++;
-						if (this.timer == 5)
+						if (this.timer == 10)
 						{
 							Vector2 perturbedSpeed = Utils.RotatedByRandom(new Vector2(toTarget.X, toTarget.Y), (double)MathHelper.ToRadians(0.1f));
 							
 							var entitySource = NPC.GetSource_FromAI();
-							Projectile.NewProjectile(entitySource, NPC.Center, perturbedSpeed * 10f, ProjectileID.BulletHighVelocity, 90, 3f);
+							Projectile.NewProjectile(entitySource, NPC.Center, perturbedSpeed * 10f, ProjectileID.BulletHighVelocity, 90, 3f, player.whoAmI);
 							this.timer = 0;
 						}
 					}

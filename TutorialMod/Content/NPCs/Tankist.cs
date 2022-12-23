@@ -112,6 +112,10 @@ namespace TutorialMod.Content.NPCs
             shop.item[nextSlot].value = 50;          
             nextSlot++;
 
+            shop.item[nextSlot].SetDefaults(97, false);
+            shop.item[nextSlot].value = 1;          
+            nextSlot++;
+
             if (NPC.downedMechBoss3 && NPC.downedMechBoss2 && NPC.downedMechBoss1)
             {
                 shop.item[nextSlot].SetDefaults(1265, false);

@@ -31,7 +31,7 @@ namespace TutorialMod.Content.Items.Weapons
             Item.UseSound = SoundID.Item71;
             Item.crit = 15;
             Item.shoot = ModContent.ProjectileType<TutorialWandProjectile>();
-            Item.shootSpeed = 14.0f;
+            Item.shootSpeed = 16.0f;
         }
         	
         public override void AddRecipes()
